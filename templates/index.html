@@ -2,16 +2,16 @@
 
 {% block content%}
 
-<h1>Hello World!</h1>
+    <h1>Hello World!</h1>
 
-<p>This is my first website!!</p>
-<p>My name is {{first_name}}!</p>
+    <p>This is my first website!!</p>
+    <p>My name is {{first_name}}!</p>
 
-{% for topping in favorite_pizza%}
-    {{ topping }}</br>
-{% endfor %}
+    {% for topping in favorite_pizza%}
+        {{ topping }}</br>
+    {% endfor %}
 
-</br></br>
-{{ favorite_pizza.0}} is the best!
+    </br></br>
+    {{ favorite_pizza.0}} is the best!
 
 {% endblock %}
